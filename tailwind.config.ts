@@ -6,6 +6,16 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {},
+  theme: {
+    extend: {
+      backgroundImage: {
+        'hero-image': "url('/hero-image.webp')"
+      },
+      colors: {
+        'laser': '#C4A576',
+        'tussock' : '#C78B53'
+      }
+    }
+  },
   plugins: [],
 } satisfies Config;
