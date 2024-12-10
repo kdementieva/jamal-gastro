@@ -4,7 +4,14 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
+interface INavItem {
+  name: string;
+  url: string;
+  scroll: boolean;
+}
+
 export default function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
 
@@ -17,7 +24,7 @@ export default function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = [
+  const navItems: INavItem[] = [
     { name: "Strona główna", url: "/", scroll: true },
     { name: "O nas", url: "o-nas", scroll: true },
     { name: "Oferta", url: "oferta", scroll: true },
@@ -36,6 +43,18 @@ export default function Navigation() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  const handleNavigation = (item: INavItem) => {
+    if (pathname === "/" && item.scroll) {
+      if (item.url === "/") {
+        scrollToTop();
+      } else {
+        handleScrollToSection(item.url);
+      }
+    } else {
+      setIsOpen(false);
+    }
+  };
+
   return (
     <nav
       className={`flex h-14 items-center fixed w-full z-20 transition-colors text-white duration-300 ${
@@ -48,7 +67,7 @@ export default function Navigation() {
         </Link>
       </div>
 
-      <div className="basis-3/4 h-full">
+      <div className="basis-3/4 h-full hidden md:block">
         <ul className="flex space-x-5 h-full items-center justify-end mr-10">
           {navItems.map((item) =>
             item.scroll ? (
@@ -57,7 +76,7 @@ export default function Navigation() {
                 className="group relative overflow-hidden cursor-pointer"
               >
                 {pathname === "/" ? (
-                  <span onClick={() => (item.url === "/" ? scrollToTop() : handleScrollToSection(item.url))}>
+                  <span onClick={() => handleNavigation(item)}>
                     {item.name}
                     <span
                       className="absolute bottom-0 left-0 w-full h-0.5 bg-laser transform
@@ -95,6 +114,73 @@ export default function Navigation() {
           )}
         </ul>
       </div>
+
+      <div className="md:hidden flex items-center z-50 ml-auto mr-4">
+        <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
+          {isOpen ? (
+            <svg
+              className="w-8 h-8 text-laser"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              className="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          )}
+        </button>
+      </div>
+
+      {isOpen && (
+        <ul className="fixed inset-0 flex flex-col items-center justify-center bg-white text-black font-bold md:hidden z-40">
+          {navItems.map((item) => (
+            <li key={item.url} className="py-4 text-2xl w-full text-center">
+              {pathname === "/" && item.scroll ? (
+                <button
+                  className="w-full"
+                  onClick={() => {
+                    handleNavigation(item);
+                    setIsOpen(false);
+                  }}
+                >
+                  {item.name}
+                </button>
+              ) : (
+                <Link href={item.url}>
+                  <span
+                    className={`h-full ${
+                      pathname === item.url ? "text-laser" : ""
+                    }`}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.name}
+                  </span>
+                </Link>
+              )}
+            </li>
+          ))}
+        </ul>
+      )}
     </nav>
   );
 }

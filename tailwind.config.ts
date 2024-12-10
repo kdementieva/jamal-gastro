@@ -13,7 +13,9 @@ export default {
       },
       colors: {
         'laser': '#C4A576',
-        'tussock' : '#C78B53'
+        'tussock': '#C78B53',
+        'shuttle-gray': '#5D656E',
+        'abbey': '#444546'
       }
     }
   },

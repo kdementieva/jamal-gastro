@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div id="o-nas" className="min-h-screen flex items-center px-4 
+    <section id="o-nas" className="min-h-screen flex items-center px-4 
     md:px-16 lg:px-36 bg-gradient-to-r from-gray-100 to-gray-50 py-24">
       <div className="basis-1/3 relative hidden md:flex md:justify-end">
         <Image 
@@ -35,6 +35,6 @@ export default function About() {
           Sprawdź naszą ofertę
         </button>
       </div>
-    </div>
+    </section>
   );
 }
