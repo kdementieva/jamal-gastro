@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 
 interface INavItem {
   name: string;
@@ -11,9 +12,9 @@ interface INavItem {
 }
 
 export default function Navigation() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-  const pathname = usePathname();
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isScrolled, setIsScrolled] = useState<boolean>(false);
+  const pathname: string = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -57,13 +58,18 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`flex h-14 items-center fixed w-full z-20 transition-colors text-white duration-300 ${
-        isScrolled ? "bg-black bg-opacity-90" : "bg-transparent"
+      className={`flex h-14 items-center ${pathname !== '/' ? '' : 'fixed'} w-full z-20 transition-colors text-white duration-300 ${
+        (isScrolled || pathname !== '/') ? "bg-black bg-opacity-90" : "bg-transparent"
       }`}
     >
       <div className="basis-1/4 ml-10">
         <Link href="/">
-          <span>LOGO</span>
+          <Image 
+          src="/logo.png"
+          alt="logo"
+          height={50}
+          width={50}
+          />
         </Link>
       </div>
 
