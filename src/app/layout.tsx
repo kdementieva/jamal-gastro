@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navigation from "@/components/navigation/Navigation";
 import Footer from "@/components/footer/Footer";
+import Cookie from "@/components/cookie/Cookie";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,11 +17,19 @@ const geistMono = localFont({
 
 export const metadata = {
   title: {
-    default: "Jamal Gastro",
+    default: "Jamal Gastro - Hurtownia gastronomiczna",
     template: "%s | Jamal Gastro"
   },
-  description: "This is next.js app"
+  description: `Jamal Gastro to hurtownia 
+gastronomiczna oferująca szeroką gamę produktów spożywczych, 
+mrożonek, mięsa, przypraw, tłuszczów, sosów, opakowań, 
+sprzętu gastronomicznego oraz dodatków kulinarnych. Obsługujemy 
+restauracje, firmy cateringowe oraz obiekty gastronomiczne, 
+zapewniając najwyższą jakość obsługi, terminowe dostawy i wsparcie 
+na każdym etapie współpracy. Poznaj naszą ofertę i skontaktuj się z nami, 
+aby dowiedzieć się więcej o dostępnych produktach i możliwościach współpracy.`
 };
+
 
 export default function RootLayout({
   children,
@@ -34,6 +43,7 @@ export default function RootLayout({
       >
         <Navigation />
         {children}
+        <Cookie/>
         <Footer />
       </body>
     </html>

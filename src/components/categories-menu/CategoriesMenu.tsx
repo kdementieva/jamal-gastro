@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 interface ICategoryItem {
   name: string;
@@ -17,6 +20,7 @@ const catItems: ICategoryItem[] = [
 ];
 
 export default function CategoriesMenu() {
+  const pathname: string = usePathname();
   return (
     <aside className="w-64 p-6 pt-10">
       <h2 className="text-2xl font-bold mb-6 text-black">
@@ -27,15 +31,13 @@ export default function CategoriesMenu() {
           <li key={item.url} className="group">
             <Link href={item.url}>
               <span 
-                className="text-black text-lg block relative 
+                className={`${pathname == '/produkty/' + item.url ? 'text-laser' : 'text-black'} text-lg block relative 
                   hover:text-laser transition-colors 
-                  group"
+                  group`}
                 >
                   {item.name}
                 <span 
-                  className="block h-0.5 bg-laser
-                    scale-x-0 group-hover:scale-x-100 
-                    transition-transform duration-300 origin-left"
+                  className={`block h-0.5 bg-laser ${pathname == '/produkty/' + item.url ? 'text-laser' : 'scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left'}`}
                 ></span>
               </span>
             </Link>

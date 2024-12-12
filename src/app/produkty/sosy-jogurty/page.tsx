@@ -1,7 +1,20 @@
 import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
-export default function Pieczywo() {
+export const metadata = {
+  title: "Sosy i jogurty - Jamal Gastro",
+  description: `Poznaj bogatą ofertę sosów i jogurtów dostępnych w 
+Jamal Gastro. Oferujemy szeroki wybór sosów, w tym sosy klasyczne, 
+egzotyczne, pikantne, majonezy, ketchupy i dipy. W naszej ofercie 
+znajdziesz także różnorodne jogurty naturalne, greckie oraz produkty na 
+bazie jogurtu, które doskonale wzbogacą smak Twoich potraw. Nasze produkty 
+są idealne dla restauracji, firm cateringowych oraz gastronomii. 
+Skontaktuj się z nami, aby dowiedzieć się więcej o dostępnych produktach, 
+warunkach współpracy i opcjach dostaw. Jesteśmy do Twojej dyspozycji 
+i chętnie odpowiemy na wszystkie Twoje pytania.`
+};
+
+export default function Sosy_jogurty() {
   const products: IProduct[] = [
     {title: "Jogurt typu grecki 10kg/10%", img: "/sosy-jogurty.webp"},
     {title: "Jogurt naturalny do sosów 10kg 3,5%", img: "/sosy-jogurty.webp"},

@@ -1,7 +1,19 @@
 import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
-export default function Pieczywo() {
+export const metadata = {
+  title: "Przyprawy i dodatki - Jamal Gastro",
+  description: `Odkryj szeroką ofertę przypraw i dodatków dostępnych 
+w Jamal Gastro. Oferujemy bogaty wybór aromatycznych przypraw, 
+sosów oraz dodatków spożywczych. W naszym asortymencie 
+znajdziesz produkty niezbędne do wzbogacenia smaku potraw, 
+idealne dla restauracji, firm cateringowych oraz gastronomii. 
+Skontaktuj się z nami, aby dowiedzieć się więcej o dostępnych produktach, 
+warunkach współpracy i opcjach dostaw. Jesteśmy do Twojej dyspozycji i 
+chętnie odpowiemy na wszystkie Twoje pytania.`
+};
+
+export default function Przyprawy_dodatki() {
   const products: IProduct[] = [
     {title: "Chilli grys 500g", img: "/przyprawy-dodatki.webp"},
     {title: "Chilli karolina (bardzo ostra)", img: "/przyprawy-dodatki.webp"},

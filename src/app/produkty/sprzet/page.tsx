@@ -1,7 +1,19 @@
 import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
-export default function Pieczywo() {
+export const metadata = {
+  title: "Sprzęt - Jamal Gastro",
+  description: `Sprawdź szeroką ofertę sprzętu gastronomicznego 
+dostępnego w Jamal Gastro. Oferujemy wysokiej jakości urządzenia i 
+akcesoria niezbędne w profesjonalnej kuchni, takie jak piece, grille, 
+lodówki, zamrażarki oraz drobny sprzęt kuchenny. Nasze produkty są 
+idealne dla restauracji, firm cateringowych oraz gastronomii. 
+Skontaktuj się z nami, aby dowiedzieć się więcej o dostępnych 
+urządzeniach, warunkach współpracy i opcjach dostaw. Jesteśmy do 
+Twojej dyspozycji i chętnie odpowiemy na wszystkie Twoje pytania.`
+};
+
+export default function Sprzet() {
   const products: IProduct[] = [
     {title: "Nóż elektryczny do kebaba (używane i nowe)", img: "/sprzet.webp"},
     {title: "Silnik do maszyny kebab", img: "/sprzet.webp"},

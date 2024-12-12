@@ -1,6 +1,17 @@
 import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
+export const metadata = {
+  title: "Pieczywo - Jamal Gastro",
+  description: `Poznaj szeroką ofertę pieczywa dostępnego w Jamal Gastro. 
+Oferujemy świeże i mrożone pieczywo najwyższej jakości, w tym chleby, bułki,
+oraz bagietki. Nasze pieczywo jest idealne dla restauracji, 
+barów, firm cateringowych oraz gastronomii. Skontaktuj się z nami, 
+aby dowiedzieć się więcej o dostępnych produktach, warunkach współpracy 
+i opcjach dostaw. Jesteśmy do Twojej dyspozycji i chętnie odpowiemy 
+na wszystkie Twoje pytania.`
+};
+
 export default function Pieczywo() {
   const products: IProduct[] = [
     {title: "Bułka kebab duża", img: "/pieczywo.webp"},

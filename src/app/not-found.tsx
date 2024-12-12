@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from "next/link";
 
 export default function NotFound() {
@@ -9,7 +8,7 @@ export default function NotFound() {
         <p className="text-abbey mb-6">
           Wygląda na to, że strona, której szukasz, jest niedostępna lub została przeniesiona.
         </p>
-        <Link href='/'>
+        <Link href="/">
           <button className="inline-block bg-shuttle-gray text-white px-6 py-3 rounded-lg shadow-md hover:bg-abbey transition duration-300">
             Wróć do strony głównej
           </button>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ICategoriesProps } from '@/lib/types'
+import { ICategoriesProps } from "@/lib/types";
 
 export default function ProductsCategory({ title, img, description, url }: ICategoriesProps) {
   return (
@@ -17,6 +17,7 @@ export default function ProductsCategory({ title, img, description, url }: ICate
         width={400} 
         height={150} 
         className="w-full h-40 object-cover"
+        priority={true}
       />
       <div className="p-3">
         <h2 className="font-bold text-lg text-gray-800">
@@ -27,11 +28,10 @@ export default function ProductsCategory({ title, img, description, url }: ICate
         </p>
         <Link 
           href={`/produkty/${url}`}
-            className="
-              mt-3 bg-laser text-white py-2 px-3 
-              rounded-md block w-full text-center 
-              hover:bg-tussock transition-all duration-300
-            "
+          className="
+            mt-3 bg-laser text-white py-2 px-3 
+            rounded-md block w-full text-center 
+            hover:bg-tussock transition-all duration-300"
           >
             Sprawdź
         </Link>

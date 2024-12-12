@@ -1,7 +1,19 @@
 import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
-export default function Pieczywo() {
+export const metadata = {
+  title: "Opakowania - Jamal Gastro",
+  description: `Sprawdź szeroką ofertę opakowań dostępnych w Jamal Gastro. 
+Oferujemy wysokiej jakości opakowania gastronomiczne, takie jak pudełka 
+na wynos, pojemniki na żywność, kubki, torby papierowe i plastikowe, folie 
+spożywcze oraz opakowania ekologiczne. Nasze produkty są idealne dla 
+restauracji, barów, firm cateringowych i gastronomii. Skontaktuj się z nami, 
+aby dowiedzieć się więcej o dostępnych rodzajach opakowań, warunkach 
+współpracy i dostawach. Jesteśmy do Twojej dyspozycji i chętnie odpowiemy 
+na wszystkie Twoje pytania.`
+};
+
+export default function Opakowania() {
   const products: IProduct[] = [
     {title: "Tacka zapiekanka 500szt", img: "/opakowania.webp"},
     {title: "Talerz papierowy biały 25cm/100szt", img: "/opakowania.webp"},

@@ -1,7 +1,21 @@
 import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
-export default function Pieczywo() {
+export const metadata = {
+  title: "Mrożonki - Jamal Gastro",
+  description: `Poznaj szeroką ofertę mrożonek 
+dostępnych w Jamal Gastro. W naszym asortymencie znajdziesz 
+świeże i starannie wyselekcjonowane produkty mrożone, 
+takie jak warzywa, mięsa, frytki oraz inne mrożonki. 
+Sprawdź naszą ofertę i skontaktuj się z nami, aby uzyskać 
+więcej informacji na temat dostępnych produktów, 
+współpracy oraz opcji dostaw. Jesteśmy do Twojej dyspozycji 
+i chętnie odpowiemy na wszystkie Twoje pytania.`
+};
+
+
+
+export default function Mrozonki() {
   const products: IProduct[] = [
     {title: "Frytki MCCAIN 9mm", img: "/mrozonki.webp"},
     {title: "Frytki TURBO AVIKO 10mm", img: "/mrozonki.webp"},

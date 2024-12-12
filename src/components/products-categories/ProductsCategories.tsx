@@ -1,5 +1,5 @@
 import ProductsCategory from "@/components/products-categories/products-category/ProductsCategory";
-import { ICategoriesProps } from '@/lib/types'
+import { ICategoriesProps } from "@/lib/types";
 
 export default function ProductsCategories() {
   const categoryItems: ICategoriesProps[] = [

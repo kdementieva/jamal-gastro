@@ -38,29 +38,30 @@ export default function Navigation() {
         (isScrolled || pathname !== '/') ? "bg-black bg-opacity-90" : "bg-transparent"
       }`}
     >
-      <div className="basis-1/4 ml-10">
-        <Link href="/#strona-glowna">
+      <Link href="/#strona-glowna" className="ml-10">
+        <div className="relative h-14 w-24">
           <Image 
-          src="/logo.png"
-          alt="logo"
-          height={100}
-          width={200}
+            src="/logo.webp"
+            alt="logo"
+            fill
+            priority={true}
+            className="invert"
+            sizes="100%"
           />
-        </Link>
-      </div>
-
-      <div className="basis-3/4 h-full hidden md:block">
+        </div>
+      </Link>
+      <div className="w-full h-full hidden md:block">
         <ul className="flex space-x-5 h-full items-center justify-end mr-10">
           {navItems.map((item: INavItem) => (
             <li key={item.url} className="group relative overflow-hidden cursor-pointer">
               <Link href={item.url}>
                 {item.name}
-                </Link>
-                <span
-                  className="absolute bottom-0 left-0 w-full h-0.5 bg-laser transform
+              </Link>
+              <span
+                className="absolute bottom-0 left-0 w-full h-0.5 bg-laser transform
                   scale-x-0 group-hover:scale-x-100 transition-transform
                   duration-300 origin-left"
-                ></span>
+              ></span>
             </li>
           ))}
         </ul>
@@ -105,8 +106,12 @@ export default function Navigation() {
       {isOpen && (
         <ul className="fixed inset-0 flex flex-col items-center justify-center bg-white text-black font-bold md:hidden z-40">
           {navItems.map((item: INavItem) => (
-            <li key={item.url}>
-              <Link href={item.url}>
+            <li key={item.url} className="mb-4">
+              <Link 
+                href={item.url} 
+                onClick={() => setIsOpen(false)} 
+                className="text-xl"
+              >
                 {item.name}
               </Link>
             </li>

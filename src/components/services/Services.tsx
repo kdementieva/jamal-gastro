@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Service from "@/components/services/service/Service";
-import { IServiceProps } from '@/lib/types'
+import { IServiceProps } from "@/lib/types";
 
 export default function Services() {
   const servicesItems: IServiceProps[] = [
@@ -19,7 +19,7 @@ Zapewniamy szeroki wybór i atrakcyjne ceny!` }
       id="oferta" 
       className="min-h-screen bg-gray-100 flex flex-col items-center justify-center py-10"
     >
-      <h2 className="text-3xl font-semibold text-gray-800 mb-10">
+      <h2 className="text-3xl font-semibold text-gray-800 mb-10 py-10">
         NASZE USŁUGI
       </h2>
       <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 mx-5">
