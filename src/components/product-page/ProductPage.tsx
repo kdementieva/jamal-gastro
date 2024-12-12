@@ -13,8 +13,8 @@ export default function ProductPage({ title, products }: IProductPageProps) {
         {title}
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mt-8 mx-5 pb-5">
-        {products.map((products: IProduct) => (
-          <Product title={products.title} img={products.img} />
+        {products.map((product: IProduct) => (
+          <Product key={product.img} title={product.title} img={product.img} />
         ))}
       </div>
     </main>

@@ -11,7 +11,7 @@ export interface ICategoriesProps {
   url: string;
 }
 
-export interface Product {
+export interface IProduct {
   title: string;
   img: string;
 }
