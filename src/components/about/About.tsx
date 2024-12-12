@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -31,9 +32,9 @@ export default function About() {
           Polski, zapewniając najwyższą jakość usług, konkurencyjne 
           ceny oraz indywidualne podejście do każdego zamówienia.
         </p>
-        <button className="bg-laser text-white px-6 py-3 rounded-md shadow-md hover:bg-tussock hover:shadow-lg transition-all duration-300">
+        <Link href="#oferta" className="bg-laser text-white px-6 py-3 rounded-md shadow-md hover:bg-tussock hover:shadow-lg transition-all duration-300">
           Sprawdź naszą ofertę
-        </button>
+        </Link>
       </div>
     </section>
   );

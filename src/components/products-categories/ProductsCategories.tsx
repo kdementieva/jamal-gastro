@@ -33,7 +33,7 @@ i naturalna świeżość.`, url: 'przyprawy-dodatki'  }
       id="produkty" 
       className="min-h-screen bg-gradient-to-r from-gray-100 to-gray-50 flex flex-col items-center justify-center py-10"
     >
-      <h2 className="text-3xl font-semibold text-gray-800 mb-10">
+      <h2 className="text-3xl font-semibold text-gray-800 my-10">
         NASZE PRODUKTY
       </h2>
 

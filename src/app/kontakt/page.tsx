@@ -1,5 +1,12 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Kontakt",
+  description: `Skontaktuj się z przychodnią Cenpil – sprawdź nasze dane kontaktowe,
+    godziny otwarcia oraz lokalizację. Jesteśmy do Twojej dyspozycji
+    i chętnie odpowiemy na Twoje pytania.`
+};
+
 export default function Kontakt() {
   return (
     <main className="min-h-[calc(100vh-104px)] flex items-center justify-center bg-gray-100">
