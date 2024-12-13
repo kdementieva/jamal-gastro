@@ -15,10 +15,10 @@ wszystkie Twoje pytania.`
 
 export default function Tluszcze() {
   const products: IProduct[] = [
-    {title: "Frytura GOLDPALM/JAGR 10kg", img: "/tluszcze.webp"},
-    {title: "Frytura płynna PAN MAX 5kg", img: "/tluszcze.webp"},
-    {title: "Olej 5l", img: "/tluszcze.webp"}
-  ]
+    {title: "FRYTURA 10L", img: "/tluszcze.webp"},
+    {title: "FRYTURA 20L", img: "/tluszcze.webp"},
+    {title: "FRYTURA PAN MAX 5L", img: "/tluszcze.webp"},
+  ];  
  
   return (
     <ProductPage title="TŁUSZCZE" products={products} />

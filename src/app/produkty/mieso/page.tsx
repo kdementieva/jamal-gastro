@@ -15,17 +15,18 @@ odpowiemy na wszystkie Twoje pytania.`
 
 export default function Mieso() {
   const products: IProduct[] = [
-    {title: "Kebab mielony (woł-indycze) 'EFES-POL'", img: "/mieso-kebab.webp"},
-    {title: "Kebab mielony (woł-cielęce) 'EFES-SULTAN'", img: "/mieso-kebab.webp"},
-    {title: "Kebab mielony (woł-baranie) 'EFES-KUZU'", img: "/mieso-kebab.webp"},
-    {title: "Kebab mielony (wołowy) 'EFES-ELIF'", img: "/mieso-kebab.webp"},
-    {title: "Kebab mielony (BIRTAT) PREMIUM", img: "/mieso-kebab.webp"},
-    {title: "Kebab mielony (woł-cielęce) 'EURO-DONER'", img: "/mieso-kebab.webp"},
-    {title: "Kebab sahara 25% baran (woł-baranie)", img: "/mieso-kebab.webp"},
-    {title: "Kebab z kurczaka '50/50' BERLIN", img: "/mieso-kebab.webp"},
-    {title: "Kebab z kurczaka '50/50' 'EFES-POL'", img: "/mieso-kebab.webp"},
-    {title: "Kurczak masala", img: "/mieso-kebab.webp"},
-    {title: "Classic", img: "/mieso-kebab.webp"}
+    {title: "KEBAB MIELONY (BIRTAT) PREMIUM", img: "/mieso-kebab.webp"},
+    {title: "KEBAB MIELONY (WOŁ-INDYCZY) \"CLASSIC\"", img: "/mieso-kebab.webp"},
+    {title: "KEBAB SAHARA 25% BARAN (WOŁ-BARANIE)", img: "/mieso-kebab.webp"},
+    {title: "KEBAB Z KURCZAKA \"30/70\" MASALA", img: "/mieso-kebab.webp"},
+    {title: "KEBAB UDKO Z KURCZAKA", img: "/mieso-kebab.webp"},
+    {title: "KEBAB KRAFT WOŁOWY 90%", img: "/mieso-kebab.webp"},
+    {title: "KEBAB DROBIOWY \"NUR\" 50/50", img: "/mieso-kebab.webp"},
+    {title: "KEBAB NAZAR (WOŁ-INDYCZY)", img: "/mieso-kebab.webp"},
+    {title: "KEBAB WOŁOWO-INDYCZY \"NUR\"", img: "/mieso-kebab.webp"},
+    {title: "KEBAB WOŁOWY STEK W PŁATACH PREMIUM", img: "/mieso-kebab.webp"},
+    {title: "KEBAB WOŁOWY 70/30", img: "/mieso-kebab.webp"},
+    {title: "KEBAB WOŁOWY 100%", img: "/mieso-kebab.webp"}
   ]
  
   return (

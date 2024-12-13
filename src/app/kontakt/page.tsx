@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Kontakt - Jamal Gastro",
+  title: "Kontakt",
   description: `Skontaktuj się z Jamal Gastro — sprawdź 
 nasze dane kontaktowe, godziny otwarcia oraz lokalizację. 
 Jesteśmy dostępni, aby odpowiedzieć na wszystkie Twoje pytania 
@@ -34,11 +34,16 @@ export default function Kontakt() {
           >
             <p className="font-semibold">JAMAL-GASTRO MUSTAFA AL-KOUBAISY</p>
             <p>ul. Jana Matejki 12, 41-100 Siemianowice Śląskie</p> 
-            <p>
-              <span className="font-semibold">Telefon: </span>
+            <p className="break-words w-72">
+              <p className="font-semibold">Telefon:</p>
               <Link href="tel:+48507027767" className="text-sky-700 hover:underline">
                 507 027 767
               </Link>
+              <span> - Mustafa Al-Koubaisy </span>
+              <Link href="tel:+48510824856" className="text-sky-700 hover:underline">
+                510 824 856
+              </Link>
+              <span> - Biuro</span>
             </p>
             <p>
               <span className="font-semibold">Adres Email: </span>

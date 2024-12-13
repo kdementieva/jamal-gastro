@@ -16,7 +16,7 @@ export default function About() {
       </div>
 
       <div className="md:pl-16 md:basis-2/3 max-w-[900px]">
-        <h2 className="text-2xl md:text-4xl font-semibold text-gray-800 mb-4 border-l-4 border-laser pl-4">
+        <h2 className="text-2xl md:text-4xl font-semibold text-gray-800 mb-4 border-l-4 border-red-700 pl-4">
           O NAS
         </h2>
         <p className="text-sm md:text-lg leading-relaxed text-gray-600 mb-6">
@@ -32,7 +32,7 @@ export default function About() {
           Polski, zapewniając najwyższą jakość usług, konkurencyjne 
           ceny oraz indywidualne podejście do każdego zamówienia.
         </p>
-        <Link href="#oferta" className="bg-laser text-white px-6 py-3 rounded-md shadow-md hover:bg-tussock hover:shadow-lg transition-all duration-300">
+        <Link href="#oferta" className="bg-red-700 text-white px-6 py-3 rounded-md shadow-md hover:bg-red-800 hover:shadow-lg transition-all duration-300">
           Sprawdź naszą ofertę
         </Link>
       </div>

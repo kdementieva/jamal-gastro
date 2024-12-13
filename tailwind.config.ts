@@ -12,8 +12,6 @@ export default {
         'hero-image': "url('/hero-image.webp')"
       },
       colors: {
-        'laser': '#C4A576',
-        'tussock': '#C78B53',
         'shuttle-gray': '#5D656E',
         'abbey': '#444546'
       },

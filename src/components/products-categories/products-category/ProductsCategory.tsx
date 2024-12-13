@@ -29,9 +29,9 @@ export default function ProductsCategory({ title, img, description, url }: ICate
         <Link 
           href={`/produkty/${url}`}
           className="
-            mt-3 bg-laser text-white py-2 px-3 
+            mt-3 bg-red-700 text-white py-2 px-3 
             rounded-md block w-full text-center 
-            hover:bg-tussock transition-all duration-300"
+            hover:bg-red-800 transition-all duration-300"
           >
             Sprawdź
         </Link>

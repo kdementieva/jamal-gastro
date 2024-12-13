@@ -14,21 +14,22 @@ na wszystkie Twoje pytania.`
 
 export default function Pieczywo() {
   const products: IProduct[] = [
-    {title: "Bułka kebab duża", img: "/pieczywo.webp"},
-    {title: "Bułka ham - mała i duża", img: "/pieczywo.webp"},
-    {title: "Bułka kebab mała", img: "/pieczywo.webp"},
-    {title: "Bułka hot-dog", img: "/pieczywo.webp"},
-    {title: "Chleb turecki 30cm", img: "/pieczywo.webp"},
-    {title: "Tortilla 25cm", img: "/pieczywo.webp"},
-    {title: "Tortilla 30cm", img: "/pieczywo.webp"},
-    {title: "Chleb arabski/22cm", img: "/pieczywo.webp"},
-    {title: "Chleb arabski/25cm", img: "/pieczywo.webp"},
-    {title: "Chleb arabski/30cm", img: "/pieczywo.webp"},
-    {title: "Bułka burger 24szt (czarny sezam)", img: "/pieczywo.webp"},
-    {title: "Bułka burger 24szt (biały sezam)", img: "/pieczywo.webp"},
-    {title: "Lawasz tortilla fresh 35cm", img: "/pieczywo.webp"},
-    {title: "Lawasz tortilla fresh 37cm", img: "/pieczywo.webp"},
-  ]
+    {title: "CHLEB TURECKI", img: "/pieczywo.webp"},
+    {title: "TORTILLA 20CM", img: "/pieczywo.webp"},
+    {title: "TORTILLA 25CM", img: "/pieczywo.webp"},
+    {title: "TORTILLA 30CM", img: "/pieczywo.webp"},
+    {title: "TORTILLA 30CM (GRUBA)", img: "/pieczywo.webp"},
+    {title: "TORTILLA 35CM", img: "/pieczywo.webp"},
+    {title: "PITA CHLEB ARABSKI/20CM", img: "/pieczywo.webp"},
+    {title: "PITA CHLEB ARABSKI/22CM", img: "/pieczywo.webp"},
+    {title: "PITA CHLEB ARABSKI/25CM", img: "/pieczywo.webp"},
+    {title: "PITA CHLEB ARABSKI/30CM", img: "/pieczywo.webp"},
+    {title: "BUŁKA KEBAB STANDARD", img: "/pieczywo.webp"},
+    {title: "BUŁKA KEBAB MAŁA", img: "/pieczywo.webp"},
+    {title: "BUŁKA BURGER 150/DUŻA PREMIUM", img: "/pieczywo.webp"},
+    {title: "BUŁKA HAMBURGER DUŻA", img: "/pieczywo.webp"},
+    {title: "BUŁKA HAMBURGER MAŁA", img: "/pieczywo.webp"},
+  ];  
  
   return (
     <ProductPage title="PIECZYWO" products={products} />

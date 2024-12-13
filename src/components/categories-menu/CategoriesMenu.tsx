@@ -11,12 +11,15 @@ interface ICategoryItem {
 const catItems: ICategoryItem[] = [
   { name: "Mięso", url: "mieso" },
   { name: "Produkty mrożone", url: "mrozonki" },
+  { name: "Frytki", url: "frytki" },
   { name: "Opakowania", url: "opakowania" },
   { name: "Pieczywo", url: "pieczywo" },
-  { name: "Przyprawy i dodatki", url: "przyprawy-dodatki" },
+  { name: "Przyprawy", url: "przyprawy" },
+  { name: "Dodatki", url: "dodatki" },
   { name: "Sosy i jogurty", url: "sosy-jogurty" },
   { name: "Sprzęt", url: "sprzet" },
-  { name: "Tłuszcze", url: "tluszcze" }
+  { name: "Tłuszcze", url: "tluszcze" },
+  { name: "Napoje", url: "napoje" }
 ];
 
 export default function CategoriesMenu() {
@@ -31,13 +34,16 @@ export default function CategoriesMenu() {
           <li key={item.url} className="group">
             <Link href={item.url}>
               <span 
-                className={`${pathname == '/produkty/' + item.url ? 'text-laser' : 'text-black'} text-lg block relative 
-                  hover:text-laser transition-colors 
+                className={`${pathname == '/produkty/' + item.url ? 'text-red-700' : 'text-black'} text-lg block relative 
+                  hover:text-red-700 transition-colors 
                   group`}
                 >
                   {item.name}
                 <span 
-                  className={`block h-0.5 bg-laser ${pathname == '/produkty/' + item.url ? 'text-laser' : 'scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left'}`}
+                  className={`block h-0.5 bg-red-700
+                    ${pathname == '/produkty/' + item.url ? '' :
+                      'scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left'}
+                    `}
                 ></span>
               </span>
             </Link>

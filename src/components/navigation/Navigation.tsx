@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 
 interface INavItem {
   name: string;
@@ -38,19 +37,13 @@ export default function Navigation() {
         (isScrolled || pathname !== '/') ? "bg-black bg-opacity-90" : "bg-transparent"
       }`}
     >
-      <Link href="/#strona-glowna" className="ml-10">
-        <div className="relative h-14 w-24">
-          <Image 
-            src="/logo.webp"
-            alt="logo"
-            fill
-            priority={true}
-            className="invert"
-            sizes="100%"
-          />
-        </div>
-      </Link>
-      <div className="w-full h-full hidden md:block">
+      <div className="h-14 ml-10">
+        <Link href="/#strona-glowna" className="h-full w-full block flex items-center
+          font-semibold text-red-600 tracking-wide">
+          JAMAL GASTRO
+        </Link>
+      </div>
+      <div className="w-[calc(100%-165px)] h-full hidden md:block">
         <ul className="flex space-x-5 h-full items-center justify-end mr-10">
           {navItems.map((item: INavItem) => (
             <li key={item.url} className="group relative overflow-hidden cursor-pointer">
@@ -58,7 +51,7 @@ export default function Navigation() {
                 {item.name}
               </Link>
               <span
-                className="absolute bottom-0 left-0 w-full h-0.5 bg-laser transform
+                className="absolute bottom-0 left-0 w-full h-0.5 bg-red-700 transform
                   scale-x-0 group-hover:scale-x-100 transition-transform
                   duration-300 origin-left"
               ></span>
@@ -71,7 +64,7 @@ export default function Navigation() {
         <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
           {isOpen ? (
             <svg
-              className="w-8 h-8 text-laser"
+              className="w-8 h-8 text-red-700"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

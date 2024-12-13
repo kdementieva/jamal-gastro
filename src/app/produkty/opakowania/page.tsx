@@ -2,7 +2,7 @@ import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
 export const metadata = {
-  title: "Opakowania - Jamal Gastro",
+  title: "Opakowania",
   description: `Sprawdź szeroką ofertę opakowań dostępnych w Jamal Gastro. 
 Oferujemy wysokiej jakości opakowania gastronomiczne, takie jak pudełka 
 na wynos, pojemniki na żywność, kubki, torby papierowe i plastikowe, folie 
@@ -15,39 +15,45 @@ na wszystkie Twoje pytania.`
 
 export default function Opakowania() {
   const products: IProduct[] = [
-    {title: "Tacka zapiekanka 500szt", img: "/opakowania.webp"},
-    {title: "Talerz papierowy biały 25cm/100szt", img: "/opakowania.webp"},
-    {title: "Torebka frytki - duża 200/g 200szt", img: "/opakowania.webp"},
-    {title: "Torebka frytki - mała 100/g 200szt", img: "/opakowania.webp"},
-    {title: "Torebka hamburger 13*13 200szt", img: "/opakowania.webp"},
-    {title: "Torebka hamburger 17*17 200szt", img: "/opakowania.webp"},
-    {title: "Torebka hot-dog 200szt", img: "/opakowania.webp"},
-    {title: "Torebka kebab 15*15 200szt", img: "/opakowania.webp"},
-    {title: "Torebka kebab 17*17 200szt", img: "/opakowania.webp"},
-    {title: "Woreczek HDPE 14/27 A 1000szt", img: "/opakowania.webp"},
-    {title: "Kubek pap. do kawy 250ml/100szt", img: "/opakowania.webp"},
-    {title: "(Kapsalon) foremki aluminiowe 100szt", img: "/opakowania.webp"},
-    {title: "Kapsalon/foremka 100szt/600ml", img: "/opakowania.webp"},
-    {title: "Worki na śmieci LED 120l/25szt", img: "/opakowania.webp"},
-    {title: "Worki na śmieci 60l", img: "/opakowania.webp"},
-    {title: "Folia aluminiowa 800g", img: "/opakowania.webp"},
-    {title: "Folia spożywcza (stretch)", img: "/opakowania.webp"},
-    {title: "Serwetki gastronomiczne 500szt", img: "/opakowania.webp"},
-    {title: "Serwetka rozłożona 350g", img: "/opakowania.webp"},
-    {title: "Kubek styropianowy do kebaba/680ml 25szt", img: "/opakowania.webp"},
-    {title: "Kubek styropianowy do kebaba/910ml 25szt", img: "/opakowania.webp"},
-    {title: "Pokrywka kubek (plastik) 680ml/50szt", img: "/opakowania.webp"},
-    {title: "Pokrywka kubek (styropian) 910ml/25szt", img: "/opakowania.webp"},
-    {title: "Doner box mini 500ml 50szt", img: "/opakowania.webp"},
-    {title: "Doner box duży 750ml 50szt", img: "/opakowania.webp"},
-    {title: "Doner box mega 1000ml 25szt", img: "/opakowania.webp"},
-    {title: "Widelec/nóż plastik 100szt", img: "/opakowania.webp"},
-    {title: "Opakowanie styropianowe (obiadowe) 3-dzielne/2-dzielne/125szt", img: "/opakowania.webp"},
-    {title: "Pojemnik 80 ml/100szt + wieczko 80mm/100szt sosy", img: "/opakowania.webp"},
-    {title: "Pojemnik podwójny ham/duży 125szt", img: "/opakowania.webp"},
-    {title: "Reklamówka 30*55/10kg 200szt", img: "/opakowania.webp"},
-    {title: "Reklamówka 25*45/5kg 200szt", img: "/opakowania.webp"}
-  ]
+    {title: "FOLIA ALUMINIOWA 300M", img: "/opakowania.webp"},
+    {title: "FOLIA STRETCHOWA (STRETCH)", img: "/opakowania.webp"},
+    {title: "SERWETA KUCHENNA PREMIUM", img: "/opakowania.webp"},
+    {title: "RĘKAW DO PIECA", img: "/opakowania.webp"},
+    {title: "OPAKOWANIE STYRO 12 SZTUK", img: "/opakowania.webp"},
+    {title: "POJEMNIK PODŁOŻNY MAŁY/KSZTAŁTNY", img: "/opakowania.webp"},
+    {title: "POJEMNIK NA ZGRZEWANIE DUŻY", img: "/opakowania.webp"},
+    {title: "EKO MISA MAŁA 350ML", img: "/opakowania.webp"},
+    {title: "EKO MISA ŚREDNIA 500ML", img: "/opakowania.webp"},
+    {title: "EKO MISA DUŻA 750ML", img: "/opakowania.webp"},
+    {title: "KUBEK MAŁY 180ML", img: "/opakowania.webp"},
+    {title: "KUBEK ŚREDNI 300ML", img: "/opakowania.webp"},
+    {title: "KUBEK DUŻY 500ML", img: "/opakowania.webp"},
+    {title: "POKRYWKA KUBEK (PLASTIK) 180ML", img: "/opakowania.webp"},
+    {title: "POKRYWKA KUBEK (PLASTIK) 300ML", img: "/opakowania.webp"},
+    {title: "POKRYWKA KUBEK (PLASTIK) 500ML", img: "/opakowania.webp"},
+    {title: "DOMKI NA BURGER MAŁE 9X9X5CM", img: "/opakowania.webp"},
+    {title: "DOMKI NA BURGER ŚREDNIE 11X11X6CM", img: "/opakowania.webp"},
+    {title: "DOMKI NA BURGER DUŻE 15X15X8CM", img: "/opakowania.webp"},
+    {title: "WORECZKI DO MIKROFAL", img: "/opakowania.webp"},
+    {title: "KIELISZKI NA LODY 200ML", img: "/opakowania.webp"},
+    {title: "KIELISZKI NA LODY 300ML", img: "/opakowania.webp"},
+    {title: "KIELISZKI NA LODY 500ML", img: "/opakowania.webp"},
+    {title: "TACKA PAPIEROWA DO BURGERA MAŁA", img: "/opakowania.webp"},
+    {title: "TACKA PAPIEROWA DO BURGERA DUŻA", img: "/opakowania.webp"},
+    {title: "MISKA NA SOSY 60ML", img: "/opakowania.webp"},
+    {title: "MISKA NA SOSY 120ML", img: "/opakowania.webp"},
+    {title: "KUBECZKI NA LODY 60ML", img: "/opakowania.webp"},
+    {title: "KUBECZKI NA LODY 100ML", img: "/opakowania.webp"},
+    {title: "KUBECZKI NA LODY 150ML", img: "/opakowania.webp"},
+    {title: "KUBECZKI NA LODY 200ML", img: "/opakowania.webp"},
+    {title: "KUBECZKI NA LODY 500ML", img: "/opakowania.webp"},
+    {title: "TORBY NA LUNCH PAPIEROWE", img: "/opakowania.webp"},
+    {title: "TORBY NA ZAKUPY PAPIEROWE", img: "/opakowania.webp"},
+    {title: "TORBY NA PIZZE PAPIEROWE", img: "/opakowania.webp"},
+    {title: "TACKI DO PIZZY 30CM", img: "/opakowania.webp"},
+    {title: "TACKI DO PIZZY 35CM", img: "/opakowania.webp"},
+    {title: "TACKI DO PIZZY 40CM", img: "/opakowania.webp"},
+  ];  
  
   return (
     <ProductPage title="OPAKOWANIA GASTRONOMICZNE" products={products} />

@@ -2,7 +2,7 @@ import ProductPage from "@/components/product-page/ProductPage";
 import { IProduct } from "@/lib/types";
 
 export const metadata = {
-  title: "Mrożonki - Jamal Gastro",
+  title: "Mrożonki",
   description: `Poznaj szeroką ofertę mrożonek 
 dostępnych w Jamal Gastro. W naszym asortymencie znajdziesz 
 świeże i starannie wyselekcjonowane produkty mrożone, 
@@ -13,23 +13,23 @@ współpracy oraz opcji dostaw. Jesteśmy do Twojej dyspozycji
 i chętnie odpowiemy na wszystkie Twoje pytania.`
 };
 
-
-
 export default function Mrozonki() {
   const products: IProduct[] = [
-    {title: "Frytki MCCAIN 9mm", img: "/mrozonki.webp"},
-    {title: "Frytki TURBO AVIKO 10mm", img: "/mrozonki.webp"},
-    {title: "Falafel 50szt", img: "/mrozonki.webp"},
-    {title: "Nuggets premium", img: "/mrozonki.webp"},
-    {title: "Nuggets tańszy", img: "/mrozonki.webp"},
-    {title: "Krążki cebulowe 1kg", img: "/mrozonki.webp"},
-    {title: "Zapiekanka-max 200g XL", img: "/mrozonki.webp"},
-    {title: "Zapiekanka-mega 300g XXL", img: "/mrozonki.webp"},
-    {title: "Mięso hamburger (ZRAZ) drób.125/g", img: "/mrozonki.webp"},
-    {title: "Mięso hamburger (ZRAZ) drób.140/g", img: "/mrozonki.webp"},
-    {title: "Mięso burger wołowy 100% 150g", img: "/mrozonki.webp"},
-    {title: "Mięso burger wołowy 100% 200g", img: "/mrozonki.webp"}
-  ]
+    {title: "FALAFEL 50 SZTUK", img: "/mrozonki.webp"},
+    {title: "NUGGETS Z KURCZAKA 1KG", img: "/mrozonki.webp"},
+    {title: "NUGGETS Z KURCZAKA 1KG PREMIUM", img: "/mrozonki.webp"},
+    {title: "STRIPSY Z KURCZAKA 1KG", img: "/mrozonki.webp"},
+    {title: "KRĄŻKI CEBULOWE 1KG", img: "/mrozonki.webp"},
+    {title: "ZAPIEKANKA-MAX 200G XL", img: "/mrozonki.webp"},
+    {title: "ZAPIEKANKA MEGA 300G XXL", img: "/mrozonki.webp"},
+    {title: "MIĘSO HAMBURGER (ZRAZ) DRÓB 125G", img: "/mrozonki.webp"},
+    {title: "AVES 125G MIĘSO HAMBURGER", img: "/mrozonki.webp"},
+    {title: "MIĘSO HAMBURGER (ZRAZ) DRÓB 140G", img: "/mrozonki.webp"},
+    {title: "MIĘSO BURGER WOŁOWY 100% 150G", img: "/mrozonki.webp"},
+    {title: "MIĘSO BURGER WOŁOWY 100% 200G", img: "/mrozonki.webp"},
+    {title: "BURGER CHICKEN (KOTLET Z KURCZAKA) 1KG", img: "/mrozonki.webp"},
+    {title: "BAKLAVA ORZECHOWA 1KG", img: "/mrozonki.webp"},
+  ];  
  
   return (
     <ProductPage title="PRODUKTY MROŻONE" products={products} />
