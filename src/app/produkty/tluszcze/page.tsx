@@ -15,9 +15,9 @@ wszystkie Twoje pytania.`
 
 export default function Tluszcze() {
   const products: IProduct[] = [
-    {title: "FRYTURA 10L", img: "/tluszcze.webp"},
-    {title: "FRYTURA 20L", img: "/tluszcze.webp"},
-    {title: "FRYTURA PAN MAX 5L", img: "/tluszcze.webp"},
+    {title: "FRYTURA 10L", img: "/tluszcze/frytura-10l.webp"},
+    {title: "FRYTURA 20L", img: "/tluszcze/frytura-20l.webp"},
+    {title: "FRYTURA PAN MAX 5L", img: "/tluszcze/frytura-pan-max-5l.webp"},
   ];  
  
   return (

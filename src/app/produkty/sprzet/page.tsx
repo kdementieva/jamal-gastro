@@ -15,18 +15,18 @@ Twojej dyspozycji i chętnie odpowiemy na wszystkie Twoje pytania.`
 
 export default function Sprzet() {
   const products: IProduct[] = [
-    {title: "Nóż elektryczny do kebaba (używane i nowe)", img: "/sprzet.webp"},
-    {title: "Silnik do maszyny kebab", img: "/sprzet.webp"},
-    {title: "Silnik do maszyny kebab (POTIS)", img: "/sprzet.webp"},
-    {title: "Toster opiekacz (saran) UŻYWKA", img: "/sprzet.webp"},
-    {title: "Palnik do maszyny kebab", img: "/sprzet.webp"},
-    {title: "Opiekacz do zapiekanek", img: "/sprzet.webp"},
-    {title: "Piece do Pizzy", img: "/sprzet.webp"},
-    {title: "Mikser do mieszania ciasta", img: "/sprzet.webp"},
-    {title: "Frytkownice Gastronomiczne", img: "/sprzet.webp"},
-    {title: "Lodówki", img: "/sprzet.webp"},
-    {title: "Zamrażarki", img: "/sprzet.webp"},
-    {title: "Okapy Gastronomiczne (różne wymiary)", img: "/sprzet.webp"}
+    {title: "Nóż elektryczny do kebaba (używane i nowe)", img: "/sprzet/noz-elektryczny-do-kebaba.webp"},
+    {title: "Silnik do maszyny kebab", img: "/sprzet/silnik-do-maszyny-kebab.webp"},
+    {title: "Silnik do maszyny kebab (POTIS)", img: "/sprzet/silnik-do-maszyny-kebab-potis.webp"},
+    {title: "Toster opiekacz (saran) UŻYWKA", img: "/sprzet/toster-opiekacz-saran.webp"},
+    {title: "Palnik do maszyny kebab", img: "/sprzet/palnik-do-maszyny-kebab.webp"},
+    {title: "Opiekacz do zapiekanek", img: "/sprzet/opiekacz-do-zapiekanek.webp"},
+    {title: "Piece do Pizzy", img: "/sprzet/piece-do-pizzy.webp"},
+    {title: "Mikser do mieszania ciasta", img: "/sprzet/mikser-do-mieszania-ciasta.webp"},
+    {title: "Frytkownice Gastronomiczne", img: "/sprzet/frytkownice-gastronomiczne.webp"},
+    {title: "Lodówki", img: "/sprzet/lodowki.webp"},
+    {title: "Zamrażarki", img: "/sprzet/zamrazarki.webp"},
+    {title: "Okapy Gastronomiczne (różne wymiary)", img: "/sprzet/okapy-gastronomiczne.webp"}
   ]
  
   return (

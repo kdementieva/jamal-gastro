@@ -14,11 +14,11 @@ odpowiemy na wszystkie Twoje pytania.`
 
 export default function Frytki() {
   const products: IProduct[] = [
-    {title: "FRYTKI MCCAIN 9MM/12,5KG", img: "/sosy-jogurty.webp"},
-    {title: "FRYTKI TURBO AVIKO 10MM/12,5KG", img: "/sosy-jogurty.webp"},
-    {title: "FRYTKI FARM FRIES 10MM/12,5KG", img: "/sosy-jogurty.webp"},
-    {title: "FRYTKI KARBOWANE TURBO 10MM/12,5KG", img: "/sosy-jogurty.webp"},
-    {title: "FRYTKI PROSTE BC 10MM", img: "/sosy-jogurty.webp"},
+    {title: "FRYTKI MCCAIN 9MM/12,5KG", img: "/frytki/frytki-mccain.webp"},
+    {title: "FRYTKI TURBO AVIKO 10MM/12,5KG", img: "/frytki/frytki-turbo-aviko.webp"},
+    {title: "FRYTKI FARM FRIES 10MM/12,5KG", img: "/frytki/frytki-farm-fries.webp"},
+    {title: "FRYTKI KARBOWANE TURBO 10MM/12,5KG", img: "/frytki/frytki-karbowane-turbo.webp"},
+    {title: "FRYTKI PROSTE BC 10MM", img: "/frytki/frytki-proste-bc.webp"},
   ];
  
   return (
