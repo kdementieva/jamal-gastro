@@ -12,18 +12,18 @@ warunkach współpracy i opcjach dostaw. Jesteśmy do Twojej dyspozycji i chętn
 
 export default function Dodatki() {
   const products: IProduct[] = [
-    {title: "PAPRYKA PEPPERONI CAŁA 4000G/1600G", img: "/sosy-jogurty.webp"},
-    {title: "KUKURYDZA SŁODKA 2,5KG/1,5KG", img: "/sosy-jogurty.webp"},
-    {title: "SAŁATKA SZWEDZKA 2,5KG", img: "/sosy-jogurty.webp"},
-    {title: "OCET 10%", img: "/sosy-jogurty.webp"},
-    {title: "CUKIER BIAŁY 1KG", img: "/sosy-jogurty.webp"},
-    {title: "SÓL JODOWANA 1KG", img: "/sosy-jogurty.webp"},
-    {title: "ZAPRAWA CYTRYNOWA 1L", img: "/sosy-jogurty.webp"},
-    {title: "PAPRYKA ŻEL. JALAPENO 3100ML", img: "/sosy-jogurty.webp"},
-    {title: "OLIWKI ZIELONE KROJONE 3100ML/1560G", img: "/sosy-jogurty.webp"},
-    {title: "OLIWKI CZARNE KROJONE 3100ML/1560G", img: "/sosy-jogurty.webp"},
-    {title: "KONCENTRAT POMIDOROWY 30% 4500G", img: "/sosy-jogurty.webp"},
-    {title: "CEBULA SMAŻONA 1KG", img: "/sosy-jogurty.webp"},
+    {title: "PAPRYKA PEPPERONI CAŁA 4000G/1600G", img: "/dodatki/papryka-pepperoni-cała.webp"},
+    {title: "KUKURYDZA SŁODKA 2,5KG/1,5KG", img: "/dodatki/kukurydza-slodka.webp"},
+    {title: "SAŁATKA SZWEDZKA 2,5KG", img: "/dodatki/salatka-szwedzka.webp"},
+    {title: "OCET 10%", img: "/dodatki/ocet-10.webp"},
+    {title: "CUKIER BIAŁY 1KG", img: "/dodatki/cukier-bialy1kg.webp"},
+    {title: "SÓL JODOWANA 1KG", img: "/dodatki/sol-jodowana1kg.webp"},
+    {title: "ZAPRAWA CYTRYNOWA 1L", img: "/dodatki/zaprawa-cytrynowa-1l.webp"},
+    {title: "PAPRYKA ŻEL. JALAPENO 3100ML", img: "/dodatki/papryka-jalapeno.webp"},
+    {title: "OLIWKI ZIELONE KROJONE 3100ML/1560G", img: "/dodatki/oliwki-zielone-krojone.webp"},
+    {title: "OLIWKI CZARNE KROJONE 3100ML/1560G", img: "/dodatki/oliwki-czarne-krojone.webp"},
+    {title: "KONCENTRAT POMIDOROWY 30% 4500G", img: "/dodatki/koncentrat-pomidorowy.webp"},
+    {title: "CEBULA SMAŻONA 1KG", img: "/dodatki/cebula-smazona.webp"},
   ];
  
   return (

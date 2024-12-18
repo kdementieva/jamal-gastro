@@ -26,7 +26,7 @@ export default function ProductsCategories() {
   potrawy.`, url: 'sosy-jogurty'  },
     { title: "Przyprawy", img: "/sosy-jogurty.webp", description: `
   Aromatyczne przyprawy, które wzbogacą każde danie. Intensywny smak i naturalna świeżość.`, url: 'przyprawy'  },
-    { title: "Dodatki", img: "/sosy-jogurty.webp", description: `Różnorodne dodatki, które uzupełnią Twoje potrawy. Smaczne i najwyższej jakości.`, url: 'dodatki' },
+    { title: "Dodatki", img: "/dodatki/papryka-pepperoni-cała.webp", description: `Różnorodne dodatki, które uzupełnią Twoje potrawy. Smaczne i najwyższej jakości.`, url: 'dodatki' },
     { title: "Frytki", img: "/frytki/frytki-mccain.webp", description: `Chrupiące i smaczne frytki w różnych wariantach. Idealne jako dodatek do każdej potrawy.`, url: 'frytki' },
     { title: "Napoje", img: "/napoje/dimes-mango.webp", description: `Bogata oferta napojów owocowych i klasycznych. Doskonałe do posiłków i na każdą okazję.`, url: 'napoje' },
   ];
