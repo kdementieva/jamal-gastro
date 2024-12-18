@@ -3,7 +3,7 @@ import { ICategoriesProps } from "@/lib/types";
 
 export default function ProductsCategories() {
   const categoryItems: ICategoriesProps[] = [
-    { title: "Pieczywo", img: "/pieczywo.webp", description: `Świeże, 
+    { title: "Pieczywo", img: "/pieczywo/chleb-turecki.webp", description: `Świeże, 
   aromatyczne pieczywo prosto z piekarni. Naturalny smak i idealna 
   chrupkość każdego dnia.`, url: 'pieczywo' },
     { title: "Mięso kebab", img: "/mieso/kebab-wolowy-stek-w-platkach-premium.webp", description: `Soczyste i 
