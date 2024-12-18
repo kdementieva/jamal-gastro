@@ -21,7 +21,7 @@ export default function ProductsCategories() {
     { title: "Tłuszcze", img: "/tluszcze/frytura-10l.webp", description: `Najwyższej 
   jakości tłuszcze do gotowania i pieczenia. Gwarancja smaku i idealnej 
   konsystencji.`, url: 'tluszcze'  },
-    { title: "Sosy i jogurty", img: "/sosy-jogurty.webp", description: `Kremowe 
+    { title: "Sosy i jogurty", img: "/sosy-jogurty/ketchup-heinz-10kg.webp", description: `Kremowe 
   jogurty i pyszne sosy w różnych smakach. Niezbędne dodatki do każdej 
   potrawy.`, url: 'sosy-jogurty'  },
     { title: "Przyprawy", img: "/przyprawy/pieprz-mielony-500g.webp", description: `
