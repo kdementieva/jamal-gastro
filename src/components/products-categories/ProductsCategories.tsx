@@ -6,7 +6,7 @@ export default function ProductsCategories() {
     { title: "Pieczywo", img: "/pieczywo.webp", description: `Świeże, 
   aromatyczne pieczywo prosto z piekarni. Naturalny smak i idealna 
   chrupkość każdego dnia.`, url: 'pieczywo' },
-    { title: "Mięso kebab", img: "/mieso-kebab.webp", description: `Soczyste i 
+    { title: "Mięso kebab", img: "/mieso/kebab-wolowy-stek-w-platkach-premium.webp", description: `Soczyste i 
   aromatyczne mięso kebab, zawsze świeżo przygotowane. Gwarancja smaku, który 
   pokochasz.`, url: 'mieso'  },
     { title: "Sprzęt", img: "/sprzet/noz-elektryczny-do-kebaba.webp", description: `Nowoczesny sprzęt 
