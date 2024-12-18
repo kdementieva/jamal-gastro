@@ -24,7 +24,7 @@ export default function ProductsCategories() {
     { title: "Sosy i jogurty", img: "/sosy-jogurty.webp", description: `Kremowe 
   jogurty i pyszne sosy w różnych smakach. Niezbędne dodatki do każdej 
   potrawy.`, url: 'sosy-jogurty'  },
-    { title: "Przyprawy", img: "/sosy-jogurty.webp", description: `
+    { title: "Przyprawy", img: "/przyprawy/pieprz-mielony-500g.webp", description: `
   Aromatyczne przyprawy, które wzbogacą każde danie. Intensywny smak i naturalna świeżość.`, url: 'przyprawy'  },
     { title: "Dodatki", img: "/dodatki/papryka-pepperoni-cała.webp", description: `Różnorodne dodatki, które uzupełnią Twoje potrawy. Smaczne i najwyższej jakości.`, url: 'dodatki' },
     { title: "Frytki", img: "/frytki/frytki-mccain.webp", description: `Chrupiące i smaczne frytki w różnych wariantach. Idealne jako dodatek do każdej potrawy.`, url: 'frytki' },
