@@ -12,7 +12,7 @@ export default function ProductsCategories() {
     { title: "Sprzęt", img: "/sprzet/noz-elektryczny-do-kebaba.webp", description: `Nowoczesny sprzęt 
   gastronomiczny dla Twojej kuchni. Niezawodność i wydajność na najwyższym 
   poziomie.`, url: 'sprzet'  },
-    { title: "Opakowania", img: "/opakowania.webp", description: `Funkcjonalne 
+    { title: "Opakowania", img: "/opakowania/menu-box-125szt.webp", description: `Funkcjonalne 
   i trwałe opakowania do gastronomii. Bezpieczne przechowywanie i wygodne 
   pakowanie.`, url: 'opakowania'  },
     { title: "Produkty mrożone", img: "/mrozonki/nuggets-kurczaka1kg.webp", description: `Świeżość 

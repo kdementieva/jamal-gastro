@@ -19,7 +19,7 @@ export default function Dodatki() {
     {title: "CUKIER BIAŁY 1KG", img: "/dodatki/cukier-bialy1kg.webp"},
     {title: "SÓL JODOWANA 1KG", img: "/dodatki/sol-jodowana1kg.webp"},
     {title: "ZAPRAWA CYTRYNOWA 1L", img: "/dodatki/zaprawa-cytrynowa-1l.webp"},
-    {title: "PAPRYKA ŻEL. JALAPENO 3100ML", img: "/dodatki/papryka-jalapeno.webp"},
+    {title: "PAPRYKA ZEL. JALAPENO 3100ML", img: "/dodatki/papryka-jalapeno.webp"},
     {title: "OLIWKI ZIELONE KROJONE 3100ML/1560G", img: "/dodatki/oliwki-zielone-krojone.webp"},
     {title: "OLIWKI CZARNE KROJONE 3100ML/1560G", img: "/dodatki/oliwki-czarne-krojone.webp"},
     {title: "KONCENTRAT POMIDOROWY 30% 4500G", img: "/dodatki/koncentrat-pomidorowy.webp"},

@@ -36,7 +36,7 @@ export default function SosyJogurty() {
     {title: "MAJONEZ HEINZ 10KG", img: "/sosy-jogurty/majonez-heinz-10kg.webp"},
     {title: "SAMBAL RUDA 10KG", img: "/sosy-jogurty/sambal-ruda-10kg.webp"},
     {title: "SAMBAL GOOD 10KG", img: "/sosy-jogurty/sambal-good-10kg.webp"},
-    {title: "SAMBAL BIAŁY EKOIPT", img: "/sosy-jogurty/sambal-bialy-ekoipt.webp"},
+    {title: "SAMBAL BIAŁY EGIPT", img: "/sosy-jogurty/sambal-bialy-egipt.webp"},
     {title: "SOS VERSE ORIGINAL 15KG", img: "/sosy-jogurty/sos-vegse-original-15kg.webp"},
     {title: "SOS CZOSNKOWY NIEDŹWIEDZI 10L", img: "/sosy-jogurty/sos-czosnek-niedzwiedzi-10kg.webp"},
     {title: "SOS GYROS 5L", img: "/sosy-jogurty/sos-gyros-5l.webp"},
