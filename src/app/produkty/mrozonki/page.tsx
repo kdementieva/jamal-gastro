@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Mrożonki",
@@ -14,24 +13,31 @@ i chętnie odpowiemy na wszystkie Twoje pytania.`
 };
 
 export default function Mrozonki() {
-  const products: IProduct[] = [
-    {title: "FALAFEL 50 SZTUK", img: "/mrozonki/falafel.webp"},
-    {title: "NUGGETS Z KURCZAKA 1KG", img: "/mrozonki/nuggets-kurczaka1kg.webp"},
-    {title: "NUGGETS Z KURCZAKA 1KG PREMIUM", img: "/mrozonki/nuggets-premium.webp"},
-    {title: "STRIPSY Z KURCZAKA 1KG", img: "/mrozonki/stripsy-z-kurczaka.webp"},
-    {title: "KRĄŻKI CEBULOWE 1KG", img: "/mrozonki/krazki-cebulowe.webp"},
-    {title: "ZAPIEKANKA-MAX 200G XL", img: "/mrozonki/zapiekanka-max-XL.webp"},
-    {title: "ZAPIEKANKA MEGA 300G XXL", img: "/mrozonki/zapiekanka-mega-XXL.webp"},
-    {title: "MIĘSO HAMBURGER (ZRAZ) DRÓB 125G", img: "/mrozonki/mieso-hamburger-125g.webp"},
-    {title: "AVES 125G MIĘSO HAMBURGER", img: "/mrozonki/AVES-mieso-hamburger.webp"},
-    {title: "MIĘSO HAMBURGER (ZRAZ) DRÓB 140G", img: "/mrozonki/mieso-hamburger-140g.webp"},
-    {title: "MIĘSO BURGER WOŁOWY 100% 150G", img: "/mrozonki/mieso-burger-wolowy150g.webp"},
-    {title: "MIĘSO BURGER WOŁOWY 100% 200G", img: "/mrozonki/mieso-burger-wolowy200g.webp"},
-    {title: "BURGER CHICKEN (KOTLET Z KURCZAKA) 1KG", img: "/mrozonki/burger-chicken.webp"},
-    {title: "BAKLAVA ORZECHOWA 1KG", img: "/mrozonki/baklava-orzechowa.webp"},
-  ];  
+  const products: string[] = [
+    "FALAFEL 50 SZTUK",
+    "NUGGETS Z KURCZAKA 1KG",
+    "NUGGETS Z KURCZAKA 1KG PREMIUM",
+    "STRIPSY Z KURCZAKA 1KG",
+    "KRĄŻKI CEBULOWE 1KG",
+    "ZAPIEKANKA-MAX 200G XL",
+    "ZAPIEKANKA MEGA 300G XXL",
+    "MIĘSO HAMBURGER (ZRAZ) DRÓB 125G",
+    "AVES 125G MIĘSO HAMBURGER",
+    "MIĘSO HAMBURGER (ZRAZ) DRÓB 140G",
+    "MIĘSO BURGER WOŁOWY 100% 150G",
+    "MIĘSO BURGER WOŁOWY 100% 200G",
+    "BURGER CHICKEN (KOTLET Z KURCZAKA) 1KG",
+    "BAKLAVA ORZECHOWA 1KG",
+  ];
+
+  const images: string[] = [
+    "/mrozonki/baklava-orzechowa.webp",
+    "/mrozonki/mieso-burger-wolowy200g.webp",
+    "/mrozonki/nuggetsy.webp",
+    "/mrozonki/zapiekanka-max-XL.webp"
+  ]
  
   return (
-    <ProductPage title="PRODUKTY MROŻONE" products={products} />
+    <ProductPage title="PRODUKTY MROŻONE" products={products} images={images} />
   );
 }

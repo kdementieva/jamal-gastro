@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Napoje",
@@ -13,19 +12,26 @@ i chętnie odpowiemy na wszystkie Twoje pytania.`
 };
 
 export default function Napoje() {
-  const products: IProduct[] = [
-    {title: "DIMES MANGO 330ML/24SZT.", img: "/napoje/dimes-mango.webp"},
-    {title: "DIMES BRZOSKWINIA 330ML/24SZT.", img: "/napoje/dimes-brzoskwinia.webp"},
-    {title: "DIMES GRANAT 330ML/24SZT.", img: "/napoje/dimes-granat.webp"},
-    {title: "DIMES MULTIWITAMINA 330ML/24SZT.", img: "/napoje/dimes-multiwitamina.webp"},
-    {title: "DIMES POMARAŃCZA 330ML/24SZT.", img: "/napoje/dimes-pomarancza.webp"},
-    {title: "TURTAMEK ANANAS 250ML/24SZT.", img: "/napoje/turtamek-ananas.webp"},
-    {title: "TURTAMEK WIŚNIA 250ML/24SZT.", img: "/napoje/turtamek-wisnia.webp"},
-    {title: "TURTAMEK MORELA 250ML/24SZT.", img: "/napoje/turtamek-morela.webp"},
-    {title: "AYRAN 250ML", img: "/napoje/ayran.webp"},
-  ];  
+  const products: string[] = [
+    "DIMES MANGO 330ML/24SZT.",
+    "DIMES BRZOSKWINIA 330ML/24SZT.",
+    "DIMES GRANAT 330ML/24SZT.",
+    "DIMES MULTIWITAMINA 330ML/24SZT.",
+    "DIMES POMARAŃCZA 330ML/24SZT.",
+    "TURTAMEK ANANAS 250ML/24SZT.",
+    "TURTAMEK WIŚNIA 250ML/24SZT.",
+    "TURTAMEK MORELA 250ML/24SZT.",
+    "AYRAN 250ML",
+  ];
+
+  const images: string[] = [
+    "/napoje/dimes-brzoskwinia.webp",
+    "/napoje/dimes-multiwitamina.webp",
+    "/napoje/turtamek-ananas.webp",
+    "/napoje/turtamek-wisnia.webp"
+  ]
  
   return (
-    <ProductPage title="NAPOJE" products={products} />
+    <ProductPage title="NAPOJE" products={products} images={images} />
   );
 }

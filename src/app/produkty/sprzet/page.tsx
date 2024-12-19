@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Sprzęt - Jamal Gastro",
@@ -14,22 +13,29 @@ Twojej dyspozycji i chętnie odpowiemy na wszystkie Twoje pytania.`
 };
 
 export default function Sprzet() {
-  const products: IProduct[] = [
-    {title: "Nóż elektryczny do kebaba (używane i nowe)", img: "/sprzet/noz-elektryczny-do-kebaba.webp"},
-    {title: "Silnik do maszyny kebab", img: "/sprzet/silnik-do-maszyny-kebab.webp"},
-    {title: "Silnik do maszyny kebab (POTIS)", img: "/sprzet/silnik-do-maszyny-kebab-potis.webp"},
-    {title: "Toster opiekacz (saran) UŻYWKA", img: "/sprzet/toster-opiekacz-saran.webp"},
-    {title: "Palnik do maszyny kebab", img: "/sprzet/palnik-do-maszyny-kebab.webp"},
-    {title: "Opiekacz do zapiekanek", img: "/sprzet/opiekacz-do-zapiekanek.webp"},
-    {title: "Piece do Pizzy", img: "/sprzet/piece-do-pizzy.webp"},
-    {title: "Mikser do mieszania ciasta", img: "/sprzet/mikser-do-mieszania-ciasta.webp"},
-    {title: "Frytkownice Gastronomiczne", img: "/sprzet/frytkownice-gastronomiczne.webp"},
-    {title: "Lodówki", img: "/sprzet/lodowki.webp"},
-    {title: "Zamrażarki", img: "/sprzet/zamrazarki.webp"},
-    {title: "Okapy Gastronomiczne (różne wymiary)", img: "/sprzet/okapy-gastronomiczne.webp"}
+  const products: string[] = [
+    "Nóż elektryczny do kebaba (używane i nowe)",
+    "Silnik do maszyny kebab",
+    "Silnik do maszyny kebab (POTIS)",
+    "Toster opiekacz (saran) UŻYWKA",
+    "Palnik do maszyny kebab",
+    "Opiekacz do zapiekanek",
+    "Piece do Pizzy",
+    "Mikser do mieszania ciasta",
+    "Frytkownice Gastronomiczne",
+    "Lodówki",
+    "Zamrażarki",
+    "Okapy Gastronomiczne (różne wymiary)",
+  ];
+
+  const images: string[] = [
+    "/sprzet/frytkownice-gastronomiczne.webp",
+    "/sprzet/noz-elektryczny-do-kebaba.webp",
+    "/sprzet/okapy-gastronomiczne.webp",
+    "/sprzet/piece-do-pizzy.webp"
   ]
  
   return (
-    <ProductPage title="SPRZĘT" products={products} />
+    <ProductPage title="SPRZĘT" products={products} images={images} />
   );
 }

@@ -20,7 +20,7 @@ export default function About() {
           O NAS
         </h2>
         <p className="text-sm md:text-lg leading-relaxed text-gray-600 mb-6">
-          Jamal Gastro to firma działająca od 2015 roku, 
+          Jamal Gastro to firma działająca od 2008 roku, 
           specjalizująca się w hurtowej sprzedaży sprzętu gastronomicznego, 
           dostarczaniu produktów fast food oraz serwisie urządzeń gastronomicznych. 
           Dzięki wieloletniemu doświadczeniu i zaangażowaniu, 

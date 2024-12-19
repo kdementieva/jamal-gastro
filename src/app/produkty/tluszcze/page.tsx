@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Tłuszcze - Jamal Gastro",
@@ -14,13 +13,20 @@ wszystkie Twoje pytania.`
 };
 
 export default function Tluszcze() {
-  const products: IProduct[] = [
-    {title: "FRYTURA 10L", img: "/tluszcze/frytura-10l.webp"},
-    {title: "FRYTURA 20L", img: "/tluszcze/frytura-20l.webp"},
-    {title: "FRYTURA PAN MAX 5L", img: "/tluszcze/frytura-pan-max-5l.webp"},
-  ];  
+  const products: string[] = [
+    "FRYTURA 10L",
+    "FRYTURA 20L",
+    "FRYTURA PAN MAX 5L",
+  ];
+
+  const images: string[] = [
+    "/tluszcze/frytura-pan-max-5l.webp",
+    "/tluszcze/frytura.webp",
+    "/tluszcze/frytura2.webp",
+    "/tluszcze/oil-bottle.webp"
+  ]
  
   return (
-    <ProductPage title="TŁUSZCZE" products={products} />
+    <ProductPage title="TŁUSZCZE" products={products} images={images} />
   );
 }

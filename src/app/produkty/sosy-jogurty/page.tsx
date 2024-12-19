@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Sosy i jogurty",
@@ -15,36 +14,43 @@ i chętnie odpowiemy na wszystkie Twoje pytania.`
 };
 
 export default function SosyJogurty() {
-  const products: IProduct[] = [
-    {title: "BUTELKA SOS CURRY 900G", img: "/sosy-jogurty/butelka-sos-curry.webp"},
-    {title: "BUTELKA KETCHUP PREMIUM 1KG", img: "/sosy-jogurty/butelka-ketchup-premium-1kg.webp"},
-    {title: "BUTELKA MAJONEZ 900G", img: "/sosy-jogurty/butelka-majonez-900g.webp"},
-    {title: "BUTELKA SOS BBQ PREMIUM 1KG", img: "/sosy-jogurty/butelka-sos-bbq-premium-1kg.webp"},
-    {title: "BUTELKA SOS PIRI PIRI 1KG", img: "/sosy-jogurty/butelka-sos-piri-piri-1kg.webp"},
-    {title: "BUTELKA SOS SEROWY 900G", img: "/sosy-jogurty/butelka-sos-serowy-900g.webp"},
-    {title: "BUTELKA SOS TYSIĄCA WYSP 900G", img: "/sosy-jogurty/butelka-sos-tysiaca-wysp-900g.webp"},
-    {title: "JOGURT NATURALNY (GĘSTY) 3,5%/10KG", img: "/sosy-jogurty/jogurt-naturalny-gesty-10kg.webp"},
-    {title: "KETCHUP 10KG", img: "/sosy-jogurty/ketchup-10kg.webp"},
-    {title: "KETCHUP 5KG", img: "/sosy-jogurty/ketchup-5kg.webp"},
-    {title: "KETCHUP HEINZ 10KG", img: "/sosy-jogurty/ketchup-heinz-10kg.webp"},
-    {title: "KETCHUP HEINZ 15KG/KARTON", img: "/sosy-jogurty/ketchup-heinz-15kg-karton.webp"},
-    {title: "KETCHUP HEINZ 100 SZTUK PO 17 ML", img: "/sosy-jogurty/ketchup-heinz-100szt-17ml.webp"},
-    {title: "BAZA MAJONEZOWA", img: "/sosy-jogurty/baza-majonezowa.webp"},
-    {title: "MAJONEZ SAŁATKOWY 10KG", img: "/sosy-jogurty/majonez-salatkowy-10kg.webp"},
-    {title: "MAJONEZ GASTRONOMICZNY 40% 10KG", img: "/sosy-jogurty/majonez-gastronomiczny.webp"},
-    {title: "MAJONEZ 76% DHAKA PREMIUM", img: "/sosy-jogurty/majonez-premium-76.webp"},
-    {title: "MAJONEZ HEINZ 10KG", img: "/sosy-jogurty/majonez-heinz-10kg.webp"},
-    {title: "SAMBAL RUDA 10KG", img: "/sosy-jogurty/sambal-ruda-10kg.webp"},
-    {title: "SAMBAL GOOD 10KG", img: "/sosy-jogurty/sambal-good-10kg.webp"},
-    {title: "SAMBAL BIAŁY EGIPT", img: "/sosy-jogurty/sambal-bialy-egipt.webp"},
-    {title: "SOS VERSE ORIGINAL 15KG", img: "/sosy-jogurty/sos-vegse-original-15kg.webp"},
-    {title: "SOS CZOSNKOWY NIEDŹWIEDZI 10L", img: "/sosy-jogurty/sos-czosnek-niedzwiedzi-10kg.webp"},
-    {title: "SOS GYROS 5L", img: "/sosy-jogurty/sos-gyros-5l.webp"},
-    {title: "SOS AMERYKAŃSKI 10L", img: "/sosy-jogurty/sos-amerykanski-10l.webp"},
-    {title: "SOS ALGERIENNE 4,75KG", img: "/sosy-jogurty/sos-algerienne.webp"},
-  ];  
+  const products: string[] = [
+    "BUTELKA SOS CURRY 900G",
+    "BUTELKA KETCHUP PREMIUM 1KG",
+    "BUTELKA MAJONEZ 900G",
+    "BUTELKA SOS BBQ PREMIUM 1KG",
+    "BUTELKA SOS PIRI PIRI 1KG",
+    "BUTELKA SOS SEROWY 900G",
+    "BUTELKA SOS TYSIĄCA WYSP 900G",
+    "JOGURT NATURALNY (GĘSTY) 3,5%/10KG",
+    "KETCHUP 10KG",
+    "KETCHUP 5KG",
+    "KETCHUP HEINZ 10KG",
+    "KETCHUP HEINZ 15KG/KARTON",
+    "KETCHUP HEINZ 100 SZTUK PO 17 ML",
+    "BAZA MAJONEZOWA",
+    "MAJONEZ SAŁATKOWY 10KG",
+    "MAJONEZ GASTRONOMICZNY 40% 10KG",
+    "MAJONEZ 76% DHAKA PREMIUM",
+    "MAJONEZ HEINZ 10KG",
+    "SAMBAL RUDA 10KG",
+    "SAMBAL GOOD 10KG",
+    "SAMBAL BIAŁY EGIPT",
+    "SOS VERSE ORIGINAL 15KG",
+    "SOS CZOSNKOWY NIEDŹWIEDZI 10L",
+    "SOS GYROS 5L",
+    "SOS AMERYKAŃSKI 10L",
+    "SOS ALGERIENNE 4,75KG",
+  ];
+
+  const images: string[] = [
+    "/sosy-jogurty/jogurt-naturalny-gesty-10kg.webp",
+    "/sosy-jogurty/ketchup-heinz-100szt-17ml.webp",
+    "/sosy-jogurty/ketchup-heinz-10kg.webp",
+    "/sosy-jogurty/majonez-heinz-10kg.webp"
+  ]
  
   return (
-    <ProductPage title="SOSY I JOGURTY" products={products} />
+    <ProductPage title="SOSY I JOGURTY" products={products} images={images} />
   );
 }

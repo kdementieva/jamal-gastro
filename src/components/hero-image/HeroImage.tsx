@@ -25,8 +25,8 @@ export default function HeroImage() {
           text-white text-center text-sm md:text-lg 
           animate-slideUp delay-[500ms]"
         >
-          Pełne zaopatrzenie gastronomiczne kebabów i fast food, komis użytwanego sprzętu
-          i naprawa urządzeń gastronomicznych.
+          Pełne zaopatrzenie gastronomiczne kebabów i fast foodów, komis sprzętu używanego i
+          naprawa urządzeń gastronomicznych.
         </p>
         <Link 
           href="#produkty" 

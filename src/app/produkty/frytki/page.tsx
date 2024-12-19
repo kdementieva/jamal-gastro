@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Frytki",
@@ -13,15 +12,22 @@ odpowiemy na wszystkie Twoje pytania.`
 };
 
 export default function Frytki() {
-  const products: IProduct[] = [
-    {title: "FRYTKI MCCAIN 9MM/12,5KG", img: "/frytki/frytki-mccain.webp"},
-    {title: "FRYTKI TURBO AVIKO 10MM/12,5KG", img: "/frytki/frytki-turbo-aviko.webp"},
-    {title: "FRYTKI FARM FRIES 10MM/12,5KG", img: "/frytki/frytki-farm-fries.webp"},
-    {title: "FRYTKI KARBOWANE TURBO 10MM/12,5KG", img: "/frytki/frytki-karbowane-turbo.webp"},
-    {title: "FRYTKI PROSTE BC 10MM", img: "/frytki/frytki-proste-bc.webp"},
+  const products: string[] = [
+    "FRYTKI MCCAIN 9MM/12,5KG",
+    "FRYTKI TURBO AVIKO 10MM/12,5KG",
+    "FRYTKI FARM FRIES 10MM/12,5KG",
+    "FRYTKI KARBOWANE TURBO 10MM/12,5KG",
+    "FRYTKI PROSTE BC 10MM",
   ];
+
+  const images: string[] = [
+    "/frytki/frytki-farm-fries.webp",
+    "/frytki/frytki-karbowane-turbo.webp",
+    "/frytki/frytki-mccain.webp",
+    "/frytki/frytki-turbo-aviko.webp"
+  ]
  
   return (
-    <ProductPage title="FRYTKI" products={products} />
+    <ProductPage title="FRYTKI" products={products} images={images} />
   );
 }

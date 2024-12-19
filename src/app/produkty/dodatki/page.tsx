@@ -1,5 +1,4 @@
 import ProductPage from "@/components/product-page/ProductPage";
-import { IProduct } from "@/lib/types";
 
 export const metadata = {
   title: "Dodatki",
@@ -11,22 +10,29 @@ warunkach współpracy i opcjach dostaw. Jesteśmy do Twojej dyspozycji i chętn
 };
 
 export default function Dodatki() {
-  const products: IProduct[] = [
-    {title: "PAPRYKA PEPPERONI CAŁA 4000G/1600G", img: "/dodatki/papryka-pepperoni-cała.webp"},
-    {title: "KUKURYDZA SŁODKA 2,5KG/1,5KG", img: "/dodatki/kukurydza-slodka.webp"},
-    {title: "SAŁATKA SZWEDZKA 2,5KG", img: "/dodatki/salatka-szwedzka.webp"},
-    {title: "OCET 10%", img: "/dodatki/ocet-10.webp"},
-    {title: "CUKIER BIAŁY 1KG", img: "/dodatki/cukier-bialy1kg.webp"},
-    {title: "SÓL JODOWANA 1KG", img: "/dodatki/sol-jodowana1kg.webp"},
-    {title: "ZAPRAWA CYTRYNOWA 1L", img: "/dodatki/zaprawa-cytrynowa-1l.webp"},
-    {title: "PAPRYKA ZEL. JALAPENO 3100ML", img: "/dodatki/papryka-jalapeno.webp"},
-    {title: "OLIWKI ZIELONE KROJONE 3100ML/1560G", img: "/dodatki/oliwki-zielone-krojone.webp"},
-    {title: "OLIWKI CZARNE KROJONE 3100ML/1560G", img: "/dodatki/oliwki-czarne-krojone.webp"},
-    {title: "KONCENTRAT POMIDOROWY 30% 4500G", img: "/dodatki/koncentrat-pomidorowy.webp"},
-    {title: "CEBULA SMAŻONA 1KG", img: "/dodatki/cebula-smazona.webp"},
+  const products: string[] = [
+    "PAPRYKA PEPPERONI CAŁA 4000G/1600G",
+    "KUKURYDZA SŁODKA 2,5KG/1,5KG",
+    "SAŁATKA SZWEDZKA 2,5KG",
+    "OCET 10%",
+    "CUKIER BIAŁY 1KG",
+    "SÓL JODOWANA 1KG",
+    "ZAPRAWA CYTRYNOWA 1L",
+    "PAPRYKA ZEL. JALAPENO 3100ML",
+    "OLIWKI ZIELONE KROJONE 3100ML/1560G",
+    "OLIWKI CZARNE KROJONE 3100ML/1560G",
+    "KONCENTRAT POMIDOROWY 30% 4500G",
+    "CEBULA SMAŻONA 1KG",
   ];
+
+  const images: string[] = [
+    "/dodatki/cebula_prazona.webp",
+    "/dodatki/kukurydza-slodka.webp",
+    "/dodatki/oliwki-zielone-krojone.webp",
+    "/dodatki/papryka-jalapeno.webp"
+  ]
  
   return (
-    <ProductPage title="DODATKI" products={products} />
+    <ProductPage title="DODATKI" products={products} images={images} />
   );
 }
