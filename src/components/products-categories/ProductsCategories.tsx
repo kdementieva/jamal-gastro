@@ -6,7 +6,7 @@ export default function ProductsCategories() {
     { title: "Pieczywo", img: "/pieczywo/pita-20cm.webp", description: `Świeże, 
   aromatyczne pieczywo prosto z piekarni. Naturalny smak i idealna 
   chrupkość każdego dnia.`, url: 'pieczywo' },
-    { title: "Mięso kebab", img: "/mieso/kebab-wolowy-stek-w-platkach-premium.webp", description: `Soczyste i 
+    { title: "Mięso kebab", img: "/mieso/kebab-mielony-wol-ind.webp", description: `Soczyste i 
   aromatyczne mięso kebab, zawsze świeżo przygotowane. Gwarancja smaku, który 
   pokochasz.`, url: 'mieso'  },
     { title: "Sprzęt", img: "/sprzet/noz-elektryczny-do-kebaba.webp", description: `Nowoczesny sprzęt 
@@ -28,7 +28,7 @@ export default function ProductsCategories() {
   Aromatyczne przyprawy, które wzbogacą każde danie. Intensywny smak i naturalna świeżość.`, url: 'przyprawy'  },
     { title: "Dodatki", img: "/dodatki/oliwki-zielone-krojone.webp", description: `Różnorodne dodatki, które uzupełnią Twoje potrawy. Smaczne i najwyższej jakości.`, url: 'dodatki' },
     { title: "Frytki", img: "/frytki/frytki-mccain.webp", description: `Chrupiące i smaczne frytki w różnych wariantach. Idealne jako dodatek do każdej potrawy.`, url: 'frytki' },
-    { title: "Napoje", img: "/napoje/dimes-mango.webp", description: `Bogata oferta napojów owocowych i klasycznych. Doskonałe do posiłków i na każdą okazję.`, url: 'napoje' },
+    { title: "Napoje", img: "/napoje/dimes-brzoskwinia.webp", description: `Bogata oferta napojów owocowych i klasycznych. Doskonałe do posiłków i na każdą okazję.`, url: 'napoje' },
   ];
   
   return (
