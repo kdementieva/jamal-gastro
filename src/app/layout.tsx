@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: {
-    default: "Jamal Gastro - Hurtownia gastronomiczna",
+    default: "Jamal Gastro",
     template: "%s | Jamal Gastro"
   },
   description: `Jamal Gastro to hurtownia 

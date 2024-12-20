@@ -11,7 +11,7 @@ export default function About() {
           alt="O nas"
           width={500} 
           height={350}
-          className="rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-transform duration-500 ease-in-out"
+          className="rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-transform duration-500 ease-in-out w-auto h-auto"
         />
       </div>
 

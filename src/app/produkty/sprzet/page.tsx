@@ -1,7 +1,7 @@
 import ProductPage from "@/components/product-page/ProductPage";
 
 export const metadata = {
-  title: "Sprzęt - Jamal Gastro",
+  title: "Sprzęt",
   description: `Sprawdź szeroką ofertę sprzętu gastronomicznego 
 dostępnego w Jamal Gastro. Oferujemy wysokiej jakości urządzenia i 
 akcesoria niezbędne w profesjonalnej kuchni, takie jak piece, grille, 

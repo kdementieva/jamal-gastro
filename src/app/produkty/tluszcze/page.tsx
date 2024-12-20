@@ -1,7 +1,7 @@
 import ProductPage from "@/components/product-page/ProductPage";
 
 export const metadata = {
-  title: "Tłuszcze - Jamal Gastro",
+  title: "Tłuszcze",
   description: `Poznaj szeroką ofertę tłuszczów dostępnych w Jamal Gastro. 
 Oferujemy różnorodne tłuszcze spożywcze, takie jak oleje roślinne, 
 tłuszcze do smażenia oraz specjalistyczne tłuszcze gastronomiczne. 

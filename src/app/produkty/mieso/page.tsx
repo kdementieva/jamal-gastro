@@ -1,7 +1,7 @@
 import ProductPage from "@/components/product-page/ProductPage";
 
 export const metadata = {
-  title: "Mięso - Jamal Gastro",
+  title: "Mięso",
   description: `Odkryj bogatą ofertę świeżych i 
 najwyższej jakości mięs dostępnych w Jamal Gastro. 
 W naszym asortymencie znajdziesz starannie wyselekcjonowane 

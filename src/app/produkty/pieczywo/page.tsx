@@ -1,7 +1,7 @@
 import ProductPage from "@/components/product-page/ProductPage";
 
 export const metadata = {
-  title: "Pieczywo - Jamal Gastro",
+  title: "Pieczywo",
   description: `Poznaj szeroką ofertę pieczywa dostępnego w Jamal Gastro. 
 Oferujemy świeże i mrożone pieczywo najwyższej jakości, w tym chleby, bułki,
 oraz bagietki. Nasze pieczywo jest idealne dla restauracji, 
