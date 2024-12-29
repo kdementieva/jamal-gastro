@@ -31,10 +31,10 @@ export default function Mrozonki() {
   ];
 
   const images: string[] = [
-    "/mrozonki/baklava-orzechowa.webp",
-    "/mrozonki/mieso-burger-wolowy200g.webp",
-    "/mrozonki/nuggetsy.webp",
-    "/mrozonki/zapiekanka-max-XL.webp"
+    "/mrozonki/mrozonki-1.webp",
+    "/mrozonki/mrozonki-2.webp",
+    "/mrozonki/mrozonki-3.webp",
+    "/mrozonki/mrozonki-4.webp"
   ]
  
   return (

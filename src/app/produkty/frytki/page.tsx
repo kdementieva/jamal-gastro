@@ -21,10 +21,10 @@ export default function Frytki() {
   ];
 
   const images: string[] = [
-    "/frytki/frytki-farm-fries.webp",
-    "/frytki/frytki-karbowane-turbo.webp",
-    "/frytki/frytki-mccain.webp",
-    "/frytki/frytki-turbo-aviko.webp"
+    "/frytki/frytki-1.webp",
+    "/frytki/frytki-2.webp",
+    "/frytki/frytki-3.webp",
+    "/frytki/frytki-4.webp"
   ]
  
   return (

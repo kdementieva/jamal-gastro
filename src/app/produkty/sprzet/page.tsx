@@ -29,10 +29,10 @@ export default function Sprzet() {
   ];
 
   const images: string[] = [
-    "/sprzet/frytkownice-gastronomiczne.webp",
-    "/sprzet/noz-elektryczny-do-kebaba.webp",
-    "/sprzet/okapy-gastronomiczne.webp",
-    "/sprzet/piece-do-pizzy.webp"
+    "/sprzet/sprzet-1.webp",
+    "/sprzet/sprzet-2.webp",
+    "/sprzet/sprzet-3.webp",
+    "/sprzet/sprzet-4.webp"
   ]
  
   return (

@@ -56,10 +56,10 @@ export default function Opakowania() {
   ];
 
   const images: string[] = [
-    "/opakowania/doner-box-mini-500ml.webp",
-    "/opakowania/eko-miska-pap-750ml.webp",
-    "/opakowania/kapsalon-foremka-600ml.webp",
-    "/opakowania/menu-box-125szt.webp"
+    "/opakowania/opakowania-1.webp",
+    "/opakowania/opakowania-2.webp",
+    "/opakowania/opakowania-3.webp",
+    "/opakowania/opakowania-4.webp"
   ]
  
   return (

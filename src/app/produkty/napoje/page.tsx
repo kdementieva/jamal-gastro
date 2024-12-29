@@ -25,10 +25,10 @@ export default function Napoje() {
   ];
 
   const images: string[] = [
-    "/napoje/dimes-brzoskwinia.webp",
-    "/napoje/dimes-multiwitamina.webp",
-    "/napoje/turtamek-ananas.webp",
-    "/napoje/turtamek-wisnia.webp"
+    "/napoje/napoje-1.webp",
+    "/napoje/napoje-2.webp",
+    "/napoje/napoje-3.webp",
+    "/napoje/napoje-4.webp"
   ]
  
   return (

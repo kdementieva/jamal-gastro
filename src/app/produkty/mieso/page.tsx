@@ -29,10 +29,10 @@ export default function Mieso() {
   ]
 
   const images: string[] = [
-    "/mieso/kebab-drobiowy-nur-50-50.webp",
-    "/mieso/kebab-kraft-wolowy.webp",
-    "/mieso/kebab-mielony-wol-ind.webp",
-    "/mieso/kebab-sahara-25-baran.webp"
+    "/mieso/mieso-1.webp",
+    "/mieso/mieso-2.webp",
+    "/mieso/mieso-3.webp",
+    "/mieso/mieso-4.webp"
   ]
  
   return (

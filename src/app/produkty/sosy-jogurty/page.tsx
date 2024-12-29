@@ -44,10 +44,10 @@ export default function SosyJogurty() {
   ];
 
   const images: string[] = [
-    "/sosy-jogurty/jogurt-naturalny-gesty-10kg.webp",
-    "/sosy-jogurty/ketchup-heinz-100szt-17ml.webp",
-    "/sosy-jogurty/ketchup-heinz-10kg.webp",
-    "/sosy-jogurty/majonez-heinz-10kg.webp"
+    "/sosy-jogurty/sosy-jogurty-1.webp",
+    "/sosy-jogurty/sosy-jogurty-2.webp",
+    "/sosy-jogurty/sosy-jogurty-3.webp",
+    "/sosy-jogurty/sosy-jogurty-4.webp"
   ]
  
   return (

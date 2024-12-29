@@ -31,10 +31,10 @@ export default function Pieczywo() {
   ];
 
   const images: string[] = [
-    "/pieczywo/bulka-burger-premium.webp",
-    "/pieczywo/bulka-hamburger-duza.webp",
-    "/pieczywo/bulka-hamburger-mala.webp",
-    "/pieczywo/pita-20cm.webp"
+    "/pieczywo/pieczywo-1.webp",
+    "/pieczywo/pieczywo-2.webp",
+    "/pieczywo/pieczywo-3.webp",
+    "/pieczywo/pieczywo-4.webp"
   ]
  
   return (

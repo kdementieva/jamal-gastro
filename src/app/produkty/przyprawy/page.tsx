@@ -30,10 +30,10 @@ export default function Przyprawy() {
   ];
 
   const images: string[] = [
-    "/przyprawy/chilli-grys.webp",
-    "/przyprawy/chilli-karolina.webp",
-    "/przyprawy/kolendra-mielona.webp",
-    "/przyprawy/oregano-suszone.webp"
+    "/przyprawy/przyprawy-1.webp",
+    "/przyprawy/przyprawy-2.webp",
+    "/przyprawy/przyprawy-3.webp",
+    "/przyprawy/przyprawy-4.webp"
   ]
  
   return (

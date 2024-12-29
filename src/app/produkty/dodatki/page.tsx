@@ -26,10 +26,10 @@ export default function Dodatki() {
   ];
 
   const images: string[] = [
-    "/dodatki/cebula_prazona.webp",
-    "/dodatki/kukurydza-slodka.webp",
-    "/dodatki/oliwki-zielone-krojone.webp",
-    "/dodatki/papryka-jalapeno.webp"
+    "/dodatki/dodatki-1.webp",
+    "/dodatki/dodatki-2.webp",
+    "/dodatki/dodatki-3.webp",
+    "/dodatki/dodatki-4.webp"
   ]
  
   return (

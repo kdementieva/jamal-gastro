@@ -20,10 +20,10 @@ export default function Tluszcze() {
   ];
 
   const images: string[] = [
-    "/tluszcze/frytura-pan-max-5l.webp",
-    "/tluszcze/frytura.webp",
-    "/tluszcze/frytura2.webp",
-    "/tluszcze/oil-bottle.webp"
+    "/tluszcze/tluszcze-1.webp",
+    "/tluszcze/tluszcze-2.webp",
+    "/tluszcze/tluszcze-3.webp",
+    "/tluszcze/tluszcze-4.webp"
   ]
  
   return (
